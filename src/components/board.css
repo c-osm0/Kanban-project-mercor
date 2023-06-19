@@ -1,0 +1,107 @@
+.board{
+    position: relative;
+width: 354px;
+/* height: 625px; */
+overflow: hidden;
+background: #F5F5F5;
+border-radius: 16px 16px 0px 0px;
+padding-bottom: 60px;
+}
+
+.headings{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex: 1;
+    /* height: 100px;
+    align-items: center; */
+}
+.namelist{
+    /* position: absolute; */
+width: fit-content;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 19px;
+margin-right: 10px;
+color: #0D062D;
+position: relative;
+    top: 13px;
+    left: 36px; 
+}
+
+.icon{
+    position: relative;
+    top: 26px;
+    left: 20px;
+    width: 8px;
+height: 8px;
+}
+.quantity{
+    box-sizing: border-box;
+
+position: relative;
+width: 20px;
+height: 20px;
+left: 30px;
+    top: 30px;
+background: #E0E0E0;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+.addicon{
+    position: relative;
+    left: 200px;
+    top: 28px;
+}
+.val{
+    position: absolute;
+width: 8px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #625F6D;
+}
+.hr_line{
+    position: relative;
+left: 17px;
+top: 15px;
+width: 314px;
+height: 0px;
+
+background: #800080;
+border: 3px solid ;
+
+}
+
+@media screen and (max-width: 480px) {
+.board{
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.hr_line{
+    position: absolute;
+    left: 2px;
+    top: 60px;
+}
+.addicon{
+    position: absolute;
+    top: 26px;
+
+}
+}

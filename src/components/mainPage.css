@@ -1,0 +1,325 @@
+.mainpage{
+    position: absolute;
+    left: 19%;
+    top: 80px;
+    width: 80%;
+    height: 80%;
+}
+
+.bigtitle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.mobtext{
+    position: absolute;
+width: 253px;
+height: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: 56px;
+
+text-transform: capitalize;
+
+color: #0D062D;
+}
+.writelogo img{
+    position: relative;
+    left: 260px;
+    top: 16px;
+}
+
+.linklogo img{
+    position: relative;
+    left: 270px;
+    top: 16px;
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+
+position: relative;
+top: 45px;
+left: 62px;
+margin-right: 15px;
+width: 122px;
+height: 40px;
+align-items: center;
+border: 1px solid #787486;
+border-radius: 6px;
+}
+
+.logo{
+    margin-left: 15px;
+    /* margin-top: ; */
+}
+.fotext{
+    margin-left: 40px;
+    position: absolute;
+width: 39px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-transform: capitalize;
+
+color: #787486;
+
+}
+.downarrow{
+    margin-top: -8px;
+    margin-left: 60px;
+}
+.filteroptions{
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+}
+.invite{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
+.invitetext{
+    position: relative;
+width: 42px;
+height: 19px;
+left: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-transform: capitalize;
+
+color: #5030E5;
+}
+.people1{
+    position: relative;
+    left: 25px;
+    top: -5px;
+}
+.people2{
+    position: relative;
+    left: 18px;
+    top: -5px;
+    /* z-index: -1; */
+
+}
+.people3{
+    position: relative;
+    left: 10px;
+    top: -5px;
+}
+.people4{
+    position: relative;
+    left: 4px;
+    top: -5px;
+}
+.blank{
+    position: relative;
+    left: -4px;
+    top: -5px;
+}
+.blank p{
+    position: relative;
+    bottom: 0px;
+    left: 10px;
+    position: absolute;
+width: 19px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+text-transform: capitalize;
+
+color: #D25B68;
+}
+.share{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+right: 200px;
+top: 122px;
+width: 97px;
+height: 40px;
+
+border: 1px solid #787486;
+border-radius: 6px;
+}
+.hr{
+    position: absolute;
+    right: 170px;
+    top: 129px;
+width: 0px;
+height: 28px;
+
+border: 1px solid #787486;
+}
+.pauseout{
+    position: absolute;
+    right: 108px;
+    top: 122px;
+}
+.pausein{
+    /* background-color: black; */
+    position: absolute;
+    right: 118px;
+    top: 132px;
+}
+.dotsm{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 65px;
+    top: 122px;
+    
+}
+.lowerdot{
+    margin-top: -10px;
+}
+
+.content{
+    /* background-color: #0D062D; */
+    /* position: absolute; */
+    /* top: 10px; */
+    margin-top: 80px;
+    max-height: fit-content;
+    overflow-x: auto;
+    padding: 10px 30px;
+    
+    
+}
+.contentboard{
+    display: flex;
+    flex-direction: row;
+}
+.boards{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .mobtext{
+        font-size: 24px;
+    }
+    .writelogo, .linklogo{
+        width: 2px;
+        position: relative;
+        left: -100px;
+        margin-right: 20px;
+    }
+
+    .linklogo{
+        width: 5px;
+    }
+
+    .filter, .share{
+        width: 80px;
+    }
+
+    .fotext{
+        font-size: 14px;
+    }
+    .downarrow{
+        visibility: hidden;
+    }
+    .share{
+        position: relative;
+        top: 44px;
+        right: -150px;
+    }
+    .hr{
+        /* position: relative; */
+        top: 125px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .mobtext{
+        font-size: 18px;
+        position: absolute;
+        top: 20px;
+    }
+    .writelogo, .linklogo{
+        width: 2px;
+        position: absolute;
+        left: -100px;
+        top: 20px;
+        margin-right: 60px;
+    }
+
+    .linklogo{
+        width: 5px;
+        margin-left: 20px;
+    }
+
+    .filter, .share{
+        width: 80px;
+    }
+
+    .fotext{
+        font-size: 14px;
+    }
+    .downarrow{
+        visibility: hidden;
+    }
+    .share{
+        position: relative;
+        top: 44px;
+        right: -150px;
+    }
+    .hr{
+        /* position: relative; */
+        top: 125px;
+    }
+    .invitetext{
+        visibility: hidden;
+    }
+    .downlog{
+        position: absolute;
+        top: 30px;
+        left: -50px;
+    }
+    .peoples{
+        position: absolute;
+        top: 18px;
+
+    }
+    .fotext, .downarrow{
+        visibility: hidden;
+        
+    }
+    .filter,.share{
+        position: absolute;
+        top: 120px;
+        left: 50px;
+        border: none;
+    }
+    .share .logo{
+        margin-left: 50px;
+    }
+    .boards{
+        display: flex;
+        flex-direction: column;
+    }
+}

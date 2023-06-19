@@ -1,0 +1,142 @@
+.card{
+    position: relative;
+width: 314px;
+height: auto;
+max-height:fit-content;
+top: 30px;
+left: 20px;
+background: #FFFFFF;
+border-radius: 16px;
+margin-top: 20px;
+cursor: pointer;
+padding-bottom: 20px;
+}
+
+.label{
+    position: relative;
+width: 36px;
+height: 23px;
+top: 24px;
+left: 26px;
+background: rgba(223, 168, 116, 0.2);
+border-radius: 4px;
+width: 50px;
+height: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #D58D49;
+}
+.topic_name{
+    position: relative;
+    left: 20px;
+    top: 26px;
+    width: 200px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #0D062D;
+}
+
+.contentdata{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    width: 274px;
+height: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+color: #787486;
+}
+.three_dots{
+    position: absolute;
+    right: 25px;
+}
+.bottomright{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+height: 15px;
+position:absolute;
+bottom: 20px;
+right: -50px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #787486;
+}
+.folder{
+    margin-left: 10px;
+}
+
+.allpersons {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    bottom: -8px;
+    width: 70px;
+    margin-top: 30px;
+}
+.allpersons img{
+    position: relative;
+    margin: -2px;
+}
+.content_images{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 5px;
+
+}
+.content_images img{
+    margin: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .card{
+       
+        width: 150px;
+height: auto;
+    }
+    .topic_name{
+        font-size: 12px;
+        align-content: center;
+    }
+    .bottomright{
+        flex-direction: column;
+        bottom: 30px;
+        left: 80px;
+    }
+    .content_images{
+        display: flex;
+        flex-direction: column;
+    }
+    .content_images img{
+        width: 100px;
+    }
+    .card{
+        width: 200px;
+        height: auto;
+    }
+    .contentdata{
+        width: 180px;
+    }
+    .allpersons{
+        margin-top: 80px;
+    }
+}
